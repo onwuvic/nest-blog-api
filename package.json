@@ -20,9 +20,16 @@
   },
   "dependencies": {
     "@nestjs/common": "^6.0.0",
+    "@nestjs/config": "0.4.0",
     "@nestjs/core": "^6.0.0",
+    "@nestjs/jwt": "7.0.0",
+    "@nestjs/passport": "7.0.0",
     "@nestjs/platform-express": "^6.0.0",
+    "bcrypt": "4.0.1",
     "dotenv": "8.2.0",
+    "passport": "0.4.1",
+    "passport-jwt": "4.0.0",
+    "passport-local": "1.0.0",
     "pg": "7.18.2",
     "pg-hstore": "2.3.3",
     "reflect-metadata": "^0.1.12",
@@ -36,6 +43,8 @@
     "@types/express": "4.16.1",
     "@types/jest": "24.0.11",
     "@types/node": "11.13.4",
+    "@types/passport-jwt": "3.0.3",
+    "@types/passport-local": "1.0.33",
     "@types/sequelize": "4.28.8",
     "@types/supertest": "2.0.7",
     "jest": "24.7.1",
@@ -46,7 +55,7 @@
     "tsc-watch": "2.2.1",
     "tsconfig-paths": "3.8.0",
     "tslint": "5.16.0",
-    "typescript": "3.4.3"
+    "typescript": "3.7.2"
   },
   "jest": {
     "moduleFileExtensions": [
