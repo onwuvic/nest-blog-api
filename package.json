@@ -26,6 +26,8 @@
     "@nestjs/passport": "7.0.0",
     "@nestjs/platform-express": "^6.0.0",
     "bcrypt": "4.0.1",
+    "class-transformer": "0.2.3",
+    "class-validator": "0.12.2",
     "dotenv": "8.2.0",
     "passport": "0.4.1",
     "passport-jwt": "4.0.0",
