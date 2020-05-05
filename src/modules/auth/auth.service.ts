@@ -32,7 +32,7 @@ export class AuthService {
 
     public async login(user) {
         const token = await this.generateToken(user);
-        return { token };
+        return { user, token };
     }
 
     public async create(user) {
@@ -49,7 +49,7 @@ export class AuthService {
         const token = await this.generateToken(result);
 
         // return the user and the token
-        return { token };
+        return { user: result, token };
     }
 
     private async generateToken(user) {
