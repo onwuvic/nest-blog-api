@@ -1,4 +1,5 @@
 import { Sequelize } from 'sequelize-typescript';
+
 import { SEQUELIZE, DEVELOPMENT, TEST, PRODUCTION } from '../constants';
 import { databaseConfig } from './database.config';
 import { User } from '../../modules/users/user.entity';
